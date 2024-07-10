@@ -70,7 +70,10 @@ main{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-}
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-top: 20px;
+   }
 .subsection1{
     text-align: left;
     opacity: 0.7;
@@ -97,9 +100,10 @@ main{
 .subsec-img3{
     padding: 10px 5px 10px 5px;
 }
+
 .shade{
-    border-radius: 16px;
-    background-color:  linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+    background-image: linear-gradient(to right , red yellow);
 }
 .section2{
     padding: 0px 144px 0px 144px;
@@ -169,7 +173,58 @@ main{
     color: black;
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 111px; 
 }
-
-
+.section3{
+    background-image: url(../assets/handshake.jpg) , linear-gradient(180deg, black, gray);
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 64px 48px 64px 48px;
+    margin-top: 111px;
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+}
+  main input[type="text"] {
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    width: 548px; 
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+ }
+ main input[type="submit"]{
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    display: block;
+ }
+ 
+ .input-flex{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 0px 200px 0px 200px;
+ }
+ .footer{
+     display: flex;
+    justify-content: space-between;
+    padding: 50px 150px 50px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+ }
+ .footer-heading{
+    font-size: 20px;
+    font-weight: 600;
+ }
+ 
